@@ -1,5 +1,9 @@
+I am sharing my automation script for the Drone Campaign in the CMS platform. This script enables users to create and configure Drone Campaigns according to their specific requirements efficiently.
+
+The automation is implemented using Playwright with JavaScript to streamline the campaign creation process. Additionally, a custom HTML report is integrated to provide clear and structured test execution results.
+
 # Drone_Campaign_RTCMS
-Full Automation Steps in RT CMS
+Full Automation Steps in RT CMS UI:
  1. Login to RT CMS portal
  2. Go to Audience Builder, create and submit audience
  3. Go to Drone Admin Tab, create all combinations with created Audience ID and validate existing combinations
@@ -7,8 +11,17 @@ Full Automation Steps in RT CMS
  5. Stopped the newly created Campaigns
 
 **N.B** Unable to remove newly created Audience ID as there is no access of it 
+    
+# Key Features of the Automation Script:
+ 1. Implemented Page Object Model (POM): Ensuring modularity and reusability of all methods.
+ 2. CSV-Based Input Handling: Reads input data from a CSV file for dynamic test execution.
+ 3. Generic QA Account Usage: Utilizes a predefined QA account for testing purposes.
+ 4. Error Handling & Screenshots: Captures screenshots upon errors for debugging.
+ 5. Built-in Validation Mechanism: Ensures test execution continues smoothly even in case of failures.
+ 6. Custom HTML Report: Generates detailed and structured test execution reports.
 
-I've used Playwright to do this Automation.
+This automation is built using Playwright with JavaScript to ensure efficiency, reliability, and ease of use
+
 # Playwright Configuration
  The prerequisites for Playwright are as follows:
 
