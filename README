@@ -57,4 +57,3 @@ Additionally, you will need to set your username and password in the logIn.spec.
       Command to run the script: : node main.spec.js 
 
 **N.B** RT CMS is SSO login, need to give Authenticate code to login in the CMS portal
-
