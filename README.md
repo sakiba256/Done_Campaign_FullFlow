@@ -22,6 +22,14 @@ Full Automation Steps in RT CMS UI:
 
 This automation is built using Playwright with JavaScript to ensure efficiency, reliability, and ease of use
 
+# Framework Structure
+ 1. Test Case Management: All test cases are organized within the Support folder.
+Functions are invoked from the main.spec.js file for execution.
+
+ 2. Screenshot Handling: All captured screenshots are stored in the Screenshots folder for debugging and reference.
+
+ 3. Reporting: Test execution reports are generated and stored in the main branch for accessibility and tracking.
+
 # Playwright Configuration
  The prerequisites for Playwright are as follows:
 
