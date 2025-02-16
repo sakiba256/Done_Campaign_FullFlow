@@ -1,6 +1,6 @@
-I am sharing my automation script for the Drone Campaign in the CMS platform. This script enables users to create and configure Drone Campaigns according to their specific requirements efficiently.
+This script enables users to create and configure Drone Campaigns according to their specific requirements efficiently.
 
-The automation is implemented using Playwright with JavaScript to streamline the campaign creation process. Additionally, a custom HTML report is integrated to provide clear and structured test execution results.
+The automation is implemented using **Playwright with JavaScript** to streamline the campaign creation process. Additionally, a custom HTML report is integrated to provide clear and structured test execution results.
 
 # Drone_Campaign_RTCMS
 Full Automation Steps in RT CMS UI:
