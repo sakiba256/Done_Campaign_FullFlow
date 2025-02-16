@@ -10,7 +10,7 @@ Full Automation Steps in RT CMS UI:
  4. Go to Drone Campaign Tab, create required campaigns and validating after submit the campaign
  5. Stopped the newly created Campaigns
 
-**N.B** Unable to remove newly created Audience ID as there is no access of it 
+**N.B** The automation script is unable to remove the newly created Audience ID due to insufficient access permissions. As a result, users must manually input a different Audience Name in **audience.spec.js** file each time, since submitting an audience with the same name is not allowed.
     
 # Key Features of the Automation Script:
  1. Implemented **Page Object Model (POM)**: Ensuring modularity and reusability of all methods.
