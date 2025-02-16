@@ -5,6 +5,7 @@ Full Automation Steps in RT CMS
  3. Go to Drone Admin Tab, create all combinations with created Audience ID and validate existing combinations
  4. Go to Drone Campaign Tab, create required campaigns and validating after submit the campaign
  5. Stopped the newly created Campaigns
+
 **N.B** Unable to remove newly created Audience ID as there is no access of it 
 
 I've used Playwright to do this Automation.
