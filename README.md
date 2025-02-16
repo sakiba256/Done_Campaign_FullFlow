@@ -13,12 +13,12 @@ Full Automation Steps in RT CMS UI:
 **N.B** Unable to remove newly created Audience ID as there is no access of it 
     
 # Key Features of the Automation Script:
- 1. Implemented Page Object Model (POM): Ensuring modularity and reusability of all methods.
- 2. CSV-Based Input Handling: Reads input data from a CSV file for dynamic test execution.
+ 1. Implemented **Page Object Model (POM)**: Ensuring modularity and reusability of all methods.
+ 2. CSV-Based Input Handling: Reads input data from a **CSV file** for dynamic test execution.
  3. Generic QA Account Usage: Utilizes a predefined QA account for testing purposes.
- 4. Error Handling & Screenshots: Captures screenshots upon errors for debugging.
- 5. Built-in Validation Mechanism: Ensures test execution continues smoothly even in case of failures.
- 6. Custom HTML Report: Generates detailed and structured test execution reports.
+ 4. Error Handling & Screenshots: Captures **screenshots** upon errors for debugging.
+ 5. **Validation** Mechanism: Ensures test execution continues smoothly even in case of failures.
+ 6. Custom HTML Report: Generates detailed and structured test execution **reports**.
 
 This automation is built using Playwright with JavaScript to ensure efficiency, reliability, and ease of use
 
