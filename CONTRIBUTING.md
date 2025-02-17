@@ -6,9 +6,17 @@ This framework is designed using the **Page Object Model (POM)** approach, makin
 # Implementing New Functionalities and Test Cases
   1. For any newly created function, invoke it from main.spec.js to execute it accordingly.
 
-  2. To include test results in the report, use this.report.logResult(). Additionally, screenshots can be captured and incorporated into the report for better documentation.
+      For Example adding a addCampaign() function whithin Campaign() class in a file called 
+      addCampaign.spec.js, and called it from main.spec.js by importing this class and call the function 
+      addCampaign() to execute the function
 
-  3. If new test cases need to be added, create a corresponding function and call it from the main function to ensure efficient reuse of existing functionalities.
+  3. To include test results in the report, use this.report.logResult(). Additionally, screenshots can be captured and incorporated into the report for better documentation.
+
+  4. If new test cases need to be added, create a corresponding function and call it from the main function to ensure efficient reuse of existing functionalities.
+
+      Reuse Function:
+       1. Login
+       2. ReportGenerate 
 
 # Framework Structure
   All test cases are organized within the Support folder, as per the framework’s design.
