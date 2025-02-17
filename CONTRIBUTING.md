@@ -6,9 +6,9 @@ This framework is designed using the **Page Object Model (POM)** approach, makin
 # Implementing New Functionalities and Test Cases
   1. For any newly created function, invoke it from main.spec.js to execute it accordingly.
 
-      For Example adding a addCampaign() function whithin Campaign() class in a file called 
-      addCampaign.spec.js, and called it from main.spec.js by importing this class and call the function 
-      addCampaign() to execute the function
+      For Example adding a **addCampaign()** function whithin **Campaign()** class in a file called 
+      **addCampaign.spec.js**, and called it from **main.spec.js** by importing this class and call the 
+      function **addCampaign()** to execute the function
 
   3. To include test results in the report, use this.report.logResult(). Additionally, screenshots can be captured and incorporated into the report for better documentation.
 
