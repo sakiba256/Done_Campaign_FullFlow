@@ -14,7 +14,7 @@ This framework is designed using the **Page Object Model (POM)** approach, makin
 
   4. If new test cases need to be added, create a corresponding function and call it from the main function to ensure efficient reuse of existing functionalities.
 
-      Reuse Function:
+      Reuse Functions:
        1. Login
        2. ReportGenerate 
 
